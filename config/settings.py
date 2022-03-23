@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'calculator.apps.CalculatorConfig'
+    'calculator.apps.CalculatorConfig',
+    'monday.apps.MondayConfig',
+    'businesscard.apps.BusinesscardConfig'
 ]
 
 MIDDLEWARE = [
